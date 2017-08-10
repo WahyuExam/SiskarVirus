@@ -1,0 +1,20 @@
+TUTORIAL
+============================
+
+1. Instal dulu server localhost, pake xampp  versi 1.7.1 (ada didalam folder ini).
+2. Copy paste folder "app_virus" ke "Local Disc(C:)/Xampp/Htdocs", Setelah itu jalankan xampp dikomputer anda
+3. pada xampp klik "Star" Apache dan MySQL
+4. Buat database lewat phpmyadmin , 
+   caranya buka browser chrome atau mozila firefox,
+   ketik pada alamat, localhost/phpmyadmin
+   buat database baru dengan nama "dbvirus" *tanpa tanda petik
+5. Setelah database dibuat, klik pada nama database yang barusan dibuat
+   Klik Import, kemudian cari file "dbvirus.sql" yang ada di folder
+   "C:/xampp/htdocs/app_virus/" . Kemudian klik GO
+6. Jika sudah didalam database tersebut akan ada beberapa tabel.
+7. setelah itu coba jalankan dengan alamat "localhost/app_virus" melalui browser.
+8. Jika ingin masuk sebagai admin maka jalankan alamat "localhost/app_virus/admin"
+   Untuk login admin gunakan kata pengguna: admin    ,    kata sandi: admin
+=====================
+
+Info aplikasi: noorlella93@gmail.com

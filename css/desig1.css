@@ -1,0 +1,146 @@
+* {
+	font-family: Arial, tahoma, sans-serif;
+}
+
+body {
+	background-color: #f3f3f3;
+}
+
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 5px;
+}
+
+#header img {
+	width: 100%;
+}
+
+#tampil_menu2{
+    margin-top: -15px;
+	margin-bottom: 1px;
+	padding-left: -20px;
+    width: 100%;
+	height: 43px;
+	background-color: #65a6ff;
+}
+
+#tampil_menu2 li{
+	list-style-type: none;
+	float: right;
+	padding: 12px 25px;
+	border-left:1px dashed #555555;
+}
+
+#tampil_menu2 li a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+#tampil_menu2 li a:hover{
+   color: gray;
+} 
+
+#tampil_menu {
+	margin-top: 1px;
+	margin-bottom: 1px;
+    width: 940px;
+	height: 30px;
+	background-color: #65a6ff;
+	padding-top: 13px;
+	padding-left: 20px;
+}
+
+#content {
+	width: 100%;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+#sidebar {
+	width : 170px;
+	background-color: #efeaea;
+	height: 352px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#sidebar2 {
+	width : 170px;
+	background-color: #efeaea;
+	height: 100%;
+	float: left;
+}
+
+#isi {
+	width: 775px;
+	height: 100%;
+	float: right;
+	margin-bottom: 5px;
+}
+
+#isi_user {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 5px;
+}
+
+#isi3 {
+	width: 535px;
+	height: 160px;
+	float: right; 
+	padding: 100px 120px;
+	margin-bottom : 5px;
+}
+
+
+#tengah {
+	width: 500px;
+	height: 120px;
+  /*	background-color: yellow; */
+}
+
+#isi h2 {
+ font-family: tahoma, "Times New Roman", "Maiandra GD", sans-serif;
+}
+
+#isi p {
+ font-family: tahoma, "Times New Roman", "Maiandra GD", sans-serif;
+ font-size: 16px;	
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+}
+
+#simple {
+    margin: 5px;
+    padding: 5px; 
+    width: 125px;
+}
+
+#simple li {
+    background: linear-gradient(-45deg, #0044a1, #005ddc);
+    border-bottom: 15px solid #efeaea;
+    list-style: none;
+    padding: 0.5em;
+    text-align: center;
+    width: 135px;
+}
+
+#simple li:hover {
+    background: linear-gradient(-45deg, #006cff, #5ca1ff);
+}
+
+#simple li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
